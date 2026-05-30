@@ -381,3 +381,13 @@ Every decision should optimize for:
 - User experience
 
 over short-term trends or visual gimmicks.
+
+## Agent Efficiency
+
+When implementing features:
+
+- Make the smallest change necessary.
+- Avoid rewriting files unless required.
+- Avoid regenerating large components.
+- Reuse existing components.
+- Do not refactor unrelated code.
