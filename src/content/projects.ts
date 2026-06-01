@@ -7,7 +7,7 @@ export const projects: Project[] = [
     href: "/projects/whatsapp",
     eyebrow: "Meta",
     summary:
-      "Placeholder case study for business messaging, monetization, reliability, and launch execution.",
+      "Building messaging experiences used by businesses to reach customers at scale.",
     themes: ["Business messaging", "Reliability", "Product ownership"],
     sections: [
       {
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     href: "/projects/chargepoint",
     eyebrow: "ChargePoint",
     summary:
-      "Placeholder case study for iOS, watchOS, CarPlay, App Clips, widgets, and SwiftUI adoption.",
+      "Led customer experiences across iOS, watchOS, CarPlay, App Clips, widgets, and Siri.",
     themes: ["Apple platforms", "SwiftUI", "Accessibility"],
     sections: [
       {

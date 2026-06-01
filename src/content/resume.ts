@@ -2,7 +2,7 @@ import type { ResumeData } from "@/lib/types";
 
 export const resume: ResumeData = {
   summary:
-    "Senior Apple platform engineer with experience shipping user-facing mobile experiences at scale.",
+    "Software engineer with experience building consumer-facing products, platform capabilities, and developer tools.",
   skills: [
     "iOS",
     "SwiftUI",
@@ -16,7 +16,7 @@ export const resume: ResumeData = {
   roles: [
     {
       company: "Meta",
-      title: "Senior iOS Engineer, WhatsApp Business",
+      title: "Software Engineer, WhatsApp Business",
       period: "Present",
       summary:
         "Placeholder summary for product engineering work on WhatsApp Business.",

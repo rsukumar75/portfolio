@@ -1,5 +1,4 @@
 import type { Project } from "@/lib/types";
-import { Badge } from "@/components/ui/badge";
 import { TextLink } from "@/components/ui/text-link";
 
 type ProjectCardProps = {
@@ -12,13 +11,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <p className="mb-3 text-sm font-medium text-zinc-500">{project.eyebrow}</p>
       <h3 className="text-xl font-semibold text-zinc-950">{project.title}</h3>
       <p className="mt-3 leading-7 text-zinc-600">{project.summary}</p>
-      <div className="mt-5 flex flex-wrap gap-2">
-        {project.themes.map((theme) => (
-          <Badge key={theme}>{theme}</Badge>
-        ))}
-      </div>
       <p className="mt-6">
-        <TextLink href={project.href}>Read case study</TextLink>
+        <TextLink href={project.href}>Learn more</TextLink>
       </p>
     </article>
   );

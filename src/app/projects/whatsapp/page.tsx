@@ -5,7 +5,7 @@ import { getProject } from "@/content/projects";
 
 export const metadata: Metadata = {
   title: "WhatsApp Business",
-  description: "Placeholder case study for WhatsApp Business work.",
+  description: "Selected work on WhatsApp Business.",
 };
 
 export default function WhatsAppProjectPage() {

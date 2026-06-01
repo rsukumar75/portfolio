@@ -5,7 +5,7 @@ import { getProject } from "@/content/projects";
 
 export const metadata: Metadata = {
   title: "ChargePoint Apple Ecosystem",
-  description: "Placeholder case study for ChargePoint Apple platform work.",
+  description: "Selected work across ChargePoint Apple platform experiences.",
 };
 
 export default function ChargePointProjectPage() {

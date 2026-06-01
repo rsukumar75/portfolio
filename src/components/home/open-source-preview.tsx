@@ -4,7 +4,12 @@ import { openSourceProjects } from "@/content/open-source";
 
 export function OpenSourcePreview() {
   return (
-    <Section title="Open source" eyebrow="Developer tooling">
+    <Section title="Open Source" eyebrow="Developer tooling">
+      <p className="mb-8 max-w-3xl leading-8 text-zinc-600">
+        Tools built around day-to-day engineering work: inspecting build
+        artifacts, improving code review signal, and reducing manual release
+        overhead.
+      </p>
       <div className="grid gap-6 md:grid-cols-2">
         {openSourceProjects.map((project) => (
           <article key={project.name} className="rounded-lg border border-zinc-200 p-6">
@@ -14,7 +19,7 @@ export function OpenSourcePreview() {
         ))}
       </div>
       <p className="mt-8">
-        <TextLink href="/projects/open-source">View open source work</TextLink>
+        <TextLink href="/projects/open-source">Explore open source projects</TextLink>
       </p>
     </Section>
   );

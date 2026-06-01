@@ -5,7 +5,7 @@ import { projects } from "@/content/projects";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Selected projects and case studies by Rishab Sukumar.",
+  description: "Work experience and engineering projects by Rishab Sukumar.",
 };
 
 export default function ProjectsPage() {
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
         Projects
       </p>
       <h1 className="mt-4 max-w-4xl text-4xl font-semibold tracking-normal text-zinc-950 sm:text-5xl">
-        Case studies and selected engineering work.
+        Work experience and engineering projects.
       </h1>
       <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-600">
         Placeholder overview for professional projects, Apple platform work,
